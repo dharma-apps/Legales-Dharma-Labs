@@ -166,8 +166,9 @@ a:hover {
 }
 
 .language-switcher button {
-  min-width: 38px;
-  padding: 6px 9px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 8px 11px;
   color: var(--muted);
   border: 0;
   background: transparent;
