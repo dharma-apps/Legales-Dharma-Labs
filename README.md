@@ -14,6 +14,8 @@ Sitio: `https://dharma-apps.github.io/Legales-Dharma-Labs/`
 
 La política general no debe enlazarse sola en una tienda si existe un anexo específico. Cada producto futuro requiere auditar su build, permisos, SDK, backend, cuentas, publicidad, compras, analítica, retención y público antes de incorporarlo.
 
+Para incorporar otro producto con Codex, usar [`PROMPT-PARA-CODEX.md`](PROMPT-PARA-CODEX.md) y completar [`templates/APP-LEGAL-AUDIT.md`](templates/APP-LEGAL-AUDIT.md). Todos los productos comparten este único sitio de GitHub Pages; no se crea un sitio separado por aplicación.
+
 ## Publicación
 
 Sitio HTML/CSS/JS estático, sin cookies, formularios, analítica, dependencias ni secretos. GitHub Pages publica desde la raíz de `main`.
