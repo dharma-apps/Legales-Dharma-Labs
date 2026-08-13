@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://dharma-apps.github.io/Legales-Dharma-Labs/sitemap.xml
-
