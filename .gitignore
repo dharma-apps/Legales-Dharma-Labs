@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+Desktop.ini
+node_modules/
+output/
+.playwright-cli/
+*.log
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+
