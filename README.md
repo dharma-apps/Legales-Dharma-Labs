@@ -22,7 +22,7 @@ Sitio HTML/CSS/JS estático, sin cookies, formularios, analítica, dependencias 
 
 ## Contacto público vigente
 
-`worldvruruguay@gmail.com`
+`contacto@dharma-uy.com`
 
 ## Aviso
 
