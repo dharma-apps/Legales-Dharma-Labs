@@ -63,6 +63,12 @@ a:hover {
   color: #045f58;
 }
 
+code {
+  overflow-wrap: anywhere;
+  white-space: normal;
+  word-break: break-all;
+}
+
 :focus-visible {
   outline: 3px solid var(--mango);
   outline-offset: 4px;
