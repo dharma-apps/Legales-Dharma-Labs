@@ -15,7 +15,7 @@
     <header class="site-header"><div class="header-inner"><a class="brand" href="/Legales-Dharma-Labs/"><img src="/Legales-Dharma-Labs/assets/favicon.svg" alt="" /><span>Dharma Labs <small>Centro legal</small></span></a><nav class="site-nav" aria-label="Navegación legal"><a aria-current="page" href="/Legales-Dharma-Labs/privacy/">Privacidad</a><a href="/Legales-Dharma-Labs/terms/">Términos</a><a href="/Legales-Dharma-Labs/account-deletion/">Cuentas y datos</a><a href="/Legales-Dharma-Labs/apps/">Aplicaciones</a></nav><div class="language-switcher" role="group" aria-label="Idioma"><button type="button" data-set-language="es" aria-pressed="true">ES</button><button type="button" data-set-language="en" aria-pressed="false">EN</button></div></div></header>
     <main id="contenido" class="page-shell">
       <article data-copy-language="es" aria-label="Política de privacidad de Beta Testers Go en español">
-        <header class="hero"><p class="eyebrow">Anexo específico</p><h1>Privacidad de Beta Testers Go</h1><p class="lead">Cómo tratamos los datos necesarios para cuentas, campañas y misiones privadas de QA.</p><div class="meta-row"><span>com.dharmaapps.betatestersgo</span><span>Vigente: 14/08/2026</span><span>Versión 1.1</span></div></header>
+        <header class="hero"><p class="eyebrow">Anexo específico</p><h1>Privacidad de Beta Testers Go</h1><p class="lead">Cómo tratamos los datos necesarios para cuentas, campañas y misiones privadas de QA.</p><div class="meta-row"><span>com.dharmaapps.betatestersgo</span><span>Vigente: 14/08/2026</span><span>Versión 1.2</span></div></header>
         <div class="legal-copy legal-copy-spaced">
           <p>Esta política complementa la <a href="/Legales-Dharma-Labs/privacy/">política general de Dharma Labs</a>. Si existe una diferencia específica sobre Beta Testers Go, prevalece este anexo.</p>
           <h2>1. Responsable, alcance y contacto</h2>
@@ -38,6 +38,7 @@
           <p>Tratamos el mínimo necesario con proveedores de VPS y base de datos, Cloudflare para transporte seguro, GitHub Pages para estos documentos, el proveedor SMTP para correo y Google para Identity, Groups y Play. El email puede comunicarse a Google para el acceso al grupo; los datos pueden procesarse fuera de Uruguay según la infraestructura de esos proveedores.</p>
           <h2>5. Datos locales y seguridad</h2>
           <p>En el dispositivo guardamos preferencias, aceptación legal y un refresh token cifrado mediante Android Keystore; el access token queda en memoria. En la web comercial sólo guardamos la preferencia de idioma en el almacenamiento local del navegador. Android Backup y la transferencia de datos están desactivados. En servidor aplicamos HTTPS, Argon2id para contraseñas, tokens con hash, cifrado de purchase tokens, control de roles, revocación de sesiones, rate limits y auditoría.</p>
+          <p>El AAB declara permisos Biometric/Fingerprint porque Credential Manager incorpora AndroidX Biometric. El código del candidato no invoca una comprobación biométrica y Beta Testers Go no recibe ni almacena huellas, rostro o plantillas biométricas; cualquier verificación compatible permanece dentro de Android o Google. El bundle también declara Billing para el pack opcional de Google Play y un permiso interno limitado por firma añadido por AndroidX Core.</p>
           <h2>6. Conservación</h2>
           <ul>
             <li>Las sesiones vencen a los 30 días si no se rotan o revocan; nonces Google vencen en cinco minutos y los enlaces de verificación/eliminación en 30 minutos.</li>
@@ -52,7 +53,7 @@
         </div>
       </article>
       <article data-copy-language="en" aria-label="Beta Testers Go privacy policy in English" hidden>
-        <header class="hero"><p class="eyebrow">Specific addendum</p><h1>Beta Testers Go privacy</h1><p class="lead">How we handle the data needed for accounts, campaigns, and private QA missions.</p><div class="meta-row"><span>com.dharmaapps.betatestersgo</span><span>Effective: August 14, 2026</span><span>Version 1.1</span></div></header>
+        <header class="hero"><p class="eyebrow">Specific addendum</p><h1>Beta Testers Go privacy</h1><p class="lead">How we handle the data needed for accounts, campaigns, and private QA missions.</p><div class="meta-row"><span>com.dharmaapps.betatestersgo</span><span>Effective: August 14, 2026</span><span>Version 1.2</span></div></header>
         <div class="legal-copy legal-copy-spaced">
           <p>This policy supplements Dharma Labs' <a href="/Legales-Dharma-Labs/privacy/?lang=en">general privacy policy</a>. This addendum controls if there is a Beta Testers Go-specific difference.</p>
           <h2>1. Controller, scope, and contact</h2>
@@ -75,6 +76,7 @@
           <p>We use the minimum necessary data with VPS/database providers, Cloudflare for secure transport, GitHub Pages for these documents, the SMTP email provider, and Google for Identity, Groups, and Play. Email may be provided to Google for group access; providers may process data outside Uruguay under their infrastructure terms.</p>
           <h2>5. Local data and security</h2>
           <p>The device stores preferences, legal acceptance, and a refresh token encrypted through Android Keystore; the access token stays in memory. The commercial website stores only the language preference in browser local storage. Android Backup and data transfer are disabled. Server controls include HTTPS, Argon2id passwords, hashed tokens, encrypted purchase tokens, roles, session revocation, rate limits, and audit trails.</p>
+          <p>The AAB declares Biometric/Fingerprint permissions because Credential Manager includes AndroidX Biometric. Candidate code does not invoke a biometric check, and Beta Testers Go does not receive or store fingerprints, faces, or biometric templates; any compatible verification remains within Android or Google. The bundle also declares Billing for the optional Google Play pack and a signature-restricted internal permission added by AndroidX Core.</p>
           <h2>6. Retention</h2>
           <ul>
             <li>Sessions expire after 30 days unless rotated or revoked; Google nonces expire after five minutes and verification/deletion links after 30 minutes.</li>
