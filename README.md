@@ -2,7 +2,9 @@
 
 Portal legal público y bilingüe para las aplicaciones, juegos y servicios digitales publicados por Dharma Labs.
 
-Sitio: `https://dharma-apps.github.io/Legales-Dharma-Labs/`
+Sitio histórico: `https://dharma-apps.github.io/Legales-Dharma-Labs/`
+
+Dominio personalizado preparado para este producto: `https://14days-12testers.dharma-uy.com/`. Su DNS debe apuntar a GitHub Pages antes de poder verificar HTTP 200 en ese host.
 
 ## Modelo documental
 

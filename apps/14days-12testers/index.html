@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Ficha legal auditada de 14Days-12Tester Pro." />
+    <meta name="theme-color" content="#101c36" />
+    <link rel="canonical" href="https://14days-12testers.dharma-uy.com/apps/14days-12testers/" />
+    <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../../assets/styles.css" />
+    <title>14Days-12Tester Pro · Legal</title>
+  </head>
+  <body data-title-es="14Days-12Tester Pro · Legal" data-title-en="14Days-12Tester Pro · Legal">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="../../"><img src="../../assets/favicon.svg" alt="" /><span>Dharma Labs <small>Centro legal</small></span></a>
+        <nav class="site-nav" aria-label="Navegación legal">
+          <a href="../../privacy/">Privacidad</a><a href="../../terms/">Términos</a><a href="../../account-deletion/">Cuentas y datos</a><a aria-current="page" href="../../apps/">Aplicaciones</a>
+        </nav>
+        <div class="language-switcher" role="group" aria-label="Idioma"><button type="button" data-set-language="es" aria-pressed="true">ES</button><button type="button" data-set-language="en" aria-pressed="false">EN</button></div>
+      </div>
+    </header>
+    <main id="contenido" class="page-shell">
+      <section data-copy-language="es">
+        <header class="hero">
+          <p class="eyebrow">Ficha legal de producto · Uruguay</p>
+          <h1>14Days-12Tester Pro</h1>
+          <p class="lead">Servicio Android para coordinar pruebas cerradas y feedback operativo sobre una app del cliente.</p>
+          <div class="meta-row"><span>com.dharmaapps.fourteendays12testerpro</span><span>Candidato 0.1.0 (1)</span><span>Auditoría: 17/08/2026</span></div>
+        </header>
+        <div class="app-card">
+          <div class="badge-row"><span class="badge">Android</span><span class="badge">Cuentas</span><span class="badge">Google Play Billing</span><span class="badge">Sin anuncios</span><span class="badge">Sin analítica integrada</span><span class="badge">Adultos</span></div>
+          <h2>Declaración auditada</h2>
+          <p>14Days-12Tester Pro permite crear una cuenta, enviar los datos de una app Android y adquirir un servicio único por app para coordinar participantes de prueba y feedback operativo. Google Play conserva sus propias decisiones sobre pruebas, revisión y publicación.</p>
+          <div class="table-wrap">
+            <table><tbody>
+              <tr><th>Responsable</th><td>Dharma-Labs · Uruguay · <a href="mailto:contacto@dharma-uy.com?subject=14Days-12Tester%20Pro">contacto@dharma-uy.com</a></td></tr>
+              <tr><th>Versión auditada</th><td>0.1.0, versionCode 1. La AAB de release firmada y la ficha final de Play todavía requieren la clave de firma y credenciales de publicación.</td></tr>
+              <tr><th>SDK y plataforma</th><td>Android nativo; min SDK 26, compile SDK 36 y target SDK 36. AndroidX, Jetpack Compose y Google Play Billing Library 9.1.0.</td></tr>
+              <tr><th>Permisos</th><td>Únicamente <code>INTERNET</code>. No se declararon cámara, micrófono, ubicación, contactos, teléfono, fotos, Advertising ID ni inventario de apps. Android Backup está desactivado para la app.</td></tr>
+              <tr><th>Cuentas</th><td>Registro y acceso por email, contraseña y nombre visible. La contraseña se almacena como hash en el servidor; la sesión usa un token temporal. La app Android mantiene el token en memoria y el portal web lo guarda en localStorage del navegador.</td></tr>
+              <tr><th>Backend</th><td>API Fastify con PostgreSQL. Registra solicitudes, estados operativos, asignaciones, eventos y auditoría de servicio. El proveedor de hosting, región, backups y monitorización de producción aún no están verificados.</td></tr>
+              <tr><th>Datos tratados</th><td>Email, nombre visible, hash de contraseña, datos de la app (nombre, package ID, enlace de prueba cerrada y notas), estado del servicio, asignaciones de testers y metadatos de compra/operación.</td></tr>
+              <tr><th>Compras</th><td>Producto único de Google Play <code>testing_service_14days_12tester</code>, precio de referencia USD 14,99 antes de la localización de Play. El servidor verifica el token con Google Play Developer API en producción y lo guarda sólo como hash; conserva metadatos mínimos de verificación y transacción.</td></tr>
+              <tr><th>Publicidad y analítica</th><td>No se encontró integración de anuncios, AdMob, Firebase Analytics, Crashlytics, Sentry, PostHog, Mixpanel ni otro SDK de analítica en el código auditado. Esto no equivale a afirmar que proveedores futuros no puedan cambiar esa situación.</td></tr>
+              <tr><th>Datos compartidos</th><td>El token de compra se envía desde la app a la API y la API lo consulta a Google Play Developer API para verificar la compra. No se envían datos del cliente a redes publicitarias. El proveedor de infraestructura de producción queda pendiente de confirmar.</td></tr>
+              <tr><th>Retención</th><td>No existe todavía un job automático de expiración ni una política técnica de backups de producción verificada. Al eliminar la cuenta se eliminan sesiones, se anonimizan credenciales y se eliminan notas; pueden conservarse registros mínimos de transacciones, seguridad y auditoría cuando exista una obligación legítima.</td></tr>
+              <tr><th>Eliminación</th><td>El portal incluye la acción “Eliminar cuenta” y existe un canal web específico. También puede solicitarse por email sin enviar la contraseña.</td></tr>
+              <tr><th>Público objetivo</th><td>Desarrolladores y equipos adultos; no está dirigido a niños. La clasificación y declaración de público de Play Console siguen pendientes.</td></tr>
+              <tr><th>Contenido de usuario</th><td>El cliente envía datos de su app y notas privadas para la coordinación. No hay feed público, chat entre usuarios ni reseñas incentivadas dentro de la app.</td></tr>
+            </tbody></table>
+          </div>
+          <div class="notice"><strong>Límites verificables:</strong> esta ficha se basa en el código fuente, el manifest, el lockfile y el APK debug auditado. No confirma aún la AAB final firmada, una compra real de Play, el proveedor de producción, las copias de seguridad, la configuración de Play Console, la DNS del dominio personalizado ni la revisión de Google.</div>
+          <h2>Enlaces públicos</h2>
+          <div class="actions"><a class="button" href="privacy/">Política de privacidad</a><a class="button secondary" href="terms/">Términos</a><a class="button secondary" href="delete/">Eliminar cuenta</a><a class="button secondary" href="https://14days-12testers.dharma-uy.com/">Portal del producto</a></div>
+        </div>
+      </section>
+      <section data-copy-language="en" hidden>
+        <header class="hero">
+          <p class="eyebrow">Product legal entry · Uruguay</p>
+          <h1>14Days-12Tester Pro</h1>
+          <p class="lead">An Android service for coordinating closed testing and operational feedback for a customer's app.</p>
+          <div class="meta-row"><span>com.dharmaapps.fourteendays12testerpro</span><span>Candidate 0.1.0 (1)</span><span>Audit: August 17, 2026</span></div>
+        </header>
+        <div class="app-card">
+          <div class="badge-row"><span class="badge">Android</span><span class="badge">Accounts</span><span class="badge">Google Play Billing</span><span class="badge">No ads</span><span class="badge">No integrated analytics</span><span class="badge">Adults</span></div>
+          <h2>Audited statement</h2>
+          <p>14Days-12Tester Pro lets a customer create an account, submit Android app details, and purchase one service per app to coordinate test participants and operational feedback. Google Play retains its own decisions about testing, review, and publication.</p>
+          <div class="table-wrap">
+            <table><tbody>
+              <tr><th>Controller</th><td>Dharma-Labs · Uruguay · <a href="mailto:contacto@dharma-uy.com?subject=14Days-12Tester%20Pro">contacto@dharma-uy.com</a></td></tr>
+              <tr><th>Audited version</th><td>0.1.0, versionCode 1. The signed release AAB and final Play listing still require the signing key and publishing credentials.</td></tr>
+              <tr><th>SDK and platform</th><td>Native Android; min SDK 26, compile SDK 36, and target SDK 36. AndroidX, Jetpack Compose, and Google Play Billing Library 9.1.0.</td></tr>
+              <tr><th>Permissions</th><td>Only <code>INTERNET</code>. No camera, microphone, location, contacts, phone, photos, Advertising ID, or installed-app inventory permissions were declared. Android Backup is disabled for the app.</td></tr>
+              <tr><th>Accounts</th><td>Email, password, and display-name registration and sign-in. Passwords are stored as server-side hashes; sessions use a temporary token. Android keeps the token in memory and the web portal stores it in browser localStorage.</td></tr>
+              <tr><th>Backend</th><td>Fastify API with PostgreSQL. It records requests, operational states, assignments, events, and service audit data. The production hosting provider, region, backups, and monitoring are not yet verified.</td></tr>
+              <tr><th>Data processed</th><td>Email, display name, password hash, app details (name, package ID, closed-testing link and notes), service state, tester assignments, and purchase/operational metadata.</td></tr>
+              <tr><th>Purchases</th><td>Google Play one-time product <code>testing_service_14days_12tester</code>, reference price USD 14.99 before Play localization. In production, the server verifies the token with the Google Play Developer API and stores only a hash of the token plus limited transaction metadata.</td></tr>
+              <tr><th>Advertising and analytics</th><td>No ads, AdMob, Firebase Analytics, Crashlytics, Sentry, PostHog, Mixpanel, or other analytics SDK integration was found in the audited code. This does not prevent a future provider change.</td></tr>
+              <tr><th>Data sharing</th><td>The purchase token is sent from the app to the API, and the API queries Google Play Developer API to verify it. Customer data is not sent to advertising networks. The production infrastructure provider remains to be confirmed.</td></tr>
+              <tr><th>Retention</th><td>No automatic expiry job or verified production-backup policy exists yet. Account deletion removes sessions, anonymizes credentials, and clears notes; limited transaction, security, and audit records may remain where there is a legitimate legal or operational reason.</td></tr>
+              <tr><th>Deletion</th><td>The portal includes a “Delete account” action and a dedicated web channel. Requests may also be sent by email without sharing a password.</td></tr>
+              <tr><th>Target audience</th><td>Adult developers and teams; not directed to children. Play Console audience and content declarations remain pending.</td></tr>
+              <tr><th>User content</th><td>Customers submit app details and private notes for coordination. There is no public feed, user-to-user chat, or incentivized review flow.</td></tr>
+            </tbody></table>
+          </div>
+          <div class="notice"><strong>Verifiable limits:</strong> this entry is based on source code, the manifest, the lockfile, and the audited debug APK. It does not yet confirm the final signed AAB, a real Play purchase, the production provider, production backups, Play Console configuration, custom-domain DNS, or Google's review.</div>
+          <h2>Public links</h2>
+          <div class="actions"><a class="button" href="privacy/?lang=en">Privacy policy</a><a class="button secondary" href="terms/?lang=en">Terms</a><a class="button secondary" href="delete/?lang=en">Delete account</a><a class="button secondary" href="https://14days-12testers.dharma-uy.com/">Product portal</a></div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner"><div><strong>Dharma Labs</strong><p>Registro legal público · Uruguay</p></div><nav class="footer-links" aria-label="Enlaces de pie"><a href="../../">Inicio</a><a href="mailto:contacto@dharma-uy.com">Contacto</a></nav></div>
+    </footer>
+    <script src="../../assets/site.js" defer></script>
+  </body>
+</html>
